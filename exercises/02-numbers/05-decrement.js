@@ -7,3 +7,7 @@ let age = 90; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let newAge = 1;
+age -= newAge;
+console.log (age); 
