@@ -16,3 +16,6 @@ let newLastName = "Fernandez"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+fullName = fullName.replace(/[\w-]+$/, newLastName);
+console.log(fullName);
