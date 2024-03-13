@@ -12,3 +12,6 @@ let userInput2 = "39"; // e,g,
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+console.log (userInput1 === userInput2);
+console.log (userInput1 !== userInput2);

@@ -13,3 +13,11 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+
+const returnGreeting = (name) => {
+  return `Hello ${name}!`;
+};
+
+// Example usage
+console.log(returnGreeting("Tim"));

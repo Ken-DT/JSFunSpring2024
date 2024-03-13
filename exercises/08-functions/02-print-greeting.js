@@ -12,3 +12,8 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const printGreeting = (firstName) => {
+  console.log ("Hello", firstName);
+};
+printGreeting ("Dale!");

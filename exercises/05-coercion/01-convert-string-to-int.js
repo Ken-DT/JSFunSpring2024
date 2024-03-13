@@ -6,3 +6,6 @@ let answer = "55"; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let age = parseInt (answer);
+console.log(age);

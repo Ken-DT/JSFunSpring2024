@@ -11,3 +11,27 @@ let actualBMI = 27; // e.g.
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+console.log(targetBMI === actualBMI);
+
+
+const greet = () => {
+  console.log ("More Rain?");
+}
+
+greet ();
+greet ();
+
+const sum = (a,b) => {
+  console.log (b-a);
+}
+sum (1993,2024);
+
+const radius = (num) => {
+  return .5 * num;
+};
+console.log (radius (4));
+
+const myDiameter = radius(5);
+console.log(myDiameter);
+

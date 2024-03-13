@@ -12,3 +12,8 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const isEvenOrOdd = num => num % 2 === 0 ? 'even' : 'odd';
+
+console.log (isEvenOrOdd(3));
+console.log (isEvenOrOdd(10));
