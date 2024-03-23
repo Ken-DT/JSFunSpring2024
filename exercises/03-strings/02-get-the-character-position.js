@@ -20,6 +20,6 @@ let letter = "e"; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-let characterPosition = firstName.indexOf("letter");
+let characterPosition = firstName.indexOf(letter);
 console.log(characterPosition);
 

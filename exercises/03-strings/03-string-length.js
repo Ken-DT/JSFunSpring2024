@@ -11,4 +11,5 @@ const str = "chocolate"; // e.g.
 // WRITE YOUR ANSWER BELOW THIS LINE
 
 
-console.log(str.length);
+const strLength = str.length;
+console.log(strLength);

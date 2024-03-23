@@ -13,7 +13,9 @@
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-const printGreeting = (firstName) => {
-  console.log ("Hello", firstName);
+const printGreeting = (name) => {
+  console.log(`Hello ${name}!`);
 };
-printGreeting ("Dale!");
+
+// Example usage
+printGreeting("Dale");

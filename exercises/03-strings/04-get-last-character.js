@@ -10,5 +10,5 @@ let str = "Kenneth D. Teasley"; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-let letter = str [str.length -1];
-console.log(letter);
+const lastCharacter = str.charAt(str.length - 1);
+console.log(lastCharacter);

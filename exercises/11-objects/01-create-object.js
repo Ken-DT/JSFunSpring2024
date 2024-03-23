@@ -8,3 +8,12 @@
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const myDog = {
+  name: ["Spot", "Rex", "Fluffy"],
+  breed: ["Coker Spaniel", "Border Collie", "Shih Tzu"],
+  age: ["5 years", "1 year", "12 years"],
+  owners:["Tom", "Brian", "Muffy"],
+};
+
+console.log(myDog);

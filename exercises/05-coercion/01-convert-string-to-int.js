@@ -1,4 +1,4 @@
-let answer = "55"; // e.g.
+let answer = "30"; // e.g.
 
 /**
  * You will change the value of "answer" below. Cast (convert) "answer", which is a string, so that it is an integer.
@@ -7,5 +7,5 @@ let answer = "55"; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-let age = parseInt (answer);
-console.log(age);
+let integerAnswer = parseInt(answer, 10);
+console.log(integerAnswer);

@@ -1,5 +1,5 @@
 const clothes = {
-  hat: "ballcap",
+  hat: "skully",
   shirt: "jersey",
   shoes: "cleats",
 };
@@ -11,3 +11,7 @@ const clothes = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+let  hat =clothes.hat;
+
+console.log(clothes.hat);

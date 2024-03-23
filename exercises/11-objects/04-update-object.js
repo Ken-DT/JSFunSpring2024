@@ -15,3 +15,12 @@ let student = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const newStudent = {
+  ...student, name: "Jamal Taylor", skills: "Being a Permanent Student"
+ 
+};
+
+console.log(newStudent);
+
+

@@ -15,3 +15,4 @@ let userInput2 = "39"; // e,g,
 
 console.log (userInput1 === userInput2);
 console.log (userInput1 !== userInput2);
+

@@ -18,9 +18,8 @@ let isBuyingDrink = true; // e.g.
 
 // WRITE YOUR ANSWER BELOW THIS LINE
 
-if (isBuyingDrink)  {
-  console.log(total + drink);
+
+if (isBuyingDrink) {
+    total += drink;
 }
-else {
-  console.log(total);
-}
+console.log(total);
