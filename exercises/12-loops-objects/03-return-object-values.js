@@ -18,3 +18,9 @@ const blogPost = {
  */
 
 // WRITE YOUR ANSWER BELOW THIS LINE
+
+const values = Object.values(blogPost);
+console.log(values);
+
+
+
