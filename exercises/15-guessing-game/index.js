@@ -8,7 +8,7 @@ function playGuessingGame() {
 
     console.log("\nWelcome to the Guessing Game!\nPress ctrl+c to stop\n");
 
-    while (true) {
+    while (typeof guess === "undefined") {
         const guess = parseInt(prompt.question('Guess the secret number between 1 and 10: '));
 
         if (isNaN(guess) || guess < 1 || guess > 10) {
