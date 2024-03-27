@@ -6,7 +6,8 @@ const add = (num1, num2) => {
 // e.g
 const subtract = (num1, num2) => {
   return num1 - num2;
-};
+}; 
+
 
 /**
  * In "calculate" function below, use a callback function to perform a calculation.
@@ -38,12 +39,15 @@ const subtract = (num1, num2) => {
  */
 
 const calculate = (num1, num2, callback) => {
+
   // WRITE YOUR ANSWER IN HERE
-};
+
+    return callback(num1, num2);
+  };
 
 // Uncomment me to test in Quokka
-// console.log( calculate(5, 10, add) );
-// console.log( calculate(7, 3, subtract) );
+//console.log( calculate(5, 10, add) );
+//console.log( calculate(7, 3, subtract) );
 
 // IGNORE THIS BELOW. It is for the tests.
 
